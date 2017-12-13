@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1f1516</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#a70f10</color>
+    <color name="checkbox">#E5E5E5</color>
+    <color name="darkRed">#620000</color>
+    <color name="red">#FF0000</color>
+
+    <color name="colorAccentDark">#e63973</color>
+    <color name="darkTransparent">#80000000</color>
+    <color name="lightTransparent">#80FFFFFF</color>
+    <color name="lightGrey">#EEEEEE</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="white">#ffffff</color>
+    <color name="filling">#953434</color>
+
+    <color name="background">#1f1516</color>
+    <color name="black_semi_transparent">#B2000000</color>
+</resources>

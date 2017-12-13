@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_24dp"/>
+
+    <item
+        android:id="@+id/nav_donor"
+        android:title="@string/search_for_donors_menu"
+        android:icon="@drawable/ic_search_24dp"/>
+
+    <item
+        android:id="@+id/nav_appointment"
+        android:title="@string/set_up_appointment"
+        android:icon="@drawable/ic_web_asset_24dp"/>
+
+    <item
+        android:id="@+id/nav_Learn"
+        android:title="@string/learn_more"
+        android:icon="@drawable/ic_info_24dp"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="@string/profile_nav"
+        android:icon="@drawable/ic_person_24dp"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_info_24dp"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_exit_24dp"/>
+
+</menu>

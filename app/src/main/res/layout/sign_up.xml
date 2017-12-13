@@ -1,0 +1,168 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="osoble.bloodhero.Fragments.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sign_up"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:clickable="false"/>
+
+            <EditText
+                android:id="@+id/nameSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/grey"
+                android:background="@drawable/edittext_signup_background"
+                android:drawableLeft="@drawable/name_icon"
+                android:drawablePadding="10dp"
+                android:hint="@string/name"
+                android:textColorHint="#929487"
+                android:inputType="textPersonName"/>
+
+
+            <EditText
+                android:id="@+id/emailSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/grey"
+                android:background="@drawable/edittext_signup_background"
+                android:drawableLeft="@drawable/email_icon"
+                android:drawablePadding="10dp"
+                android:hint="@string/email"
+                android:textColorHint="#929487"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/passwordSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/grey"
+                android:background="@drawable/edittext_signup_background"
+                android:drawableLeft="@drawable/password_ico"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:textColorHint="#929487"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/confirmPasswordSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/grey"
+                android:background="@drawable/edittext_signup_background"
+                android:drawableLeft="@drawable/password_ico"
+                android:drawablePadding="10dp"
+                android:hint="@string/confirm"
+                android:textColorHint="#929487"
+                android:inputType="textPassword"/>
+
+            <Spinner
+                android:id="@+id/countrySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:popupBackground="@color/background"
+                android:padding="10dp"
+                android:background="@drawable/edittext_signup_background" />
+
+            <Spinner
+                android:id="@+id/bloodTypeSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:popupBackground="@color/background"
+                android:padding="10dp"
+                android:background="@drawable/edittext_signup_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/confirmAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/grey"
+                    android:layout_gravity="center|left" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/confirm_age"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center|right"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/upload_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_signup_background"
+                android:textSize="22sp"
+                android:text="@string/upload_image"
+                android:textColor="@color/grey"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signup_button"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/haveAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/have_an_account"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
